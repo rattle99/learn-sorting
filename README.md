@@ -1,7 +1,7 @@
 # learn-sorting
 Sorting algorithms implemented in different languages.
 
-## C++ refernce
+## C++ reference
 
 `#include <filename>`
 + The preprocessor searches in an implementation dependent manner, normally in search directories pre-designated by the compiler/IDE.
