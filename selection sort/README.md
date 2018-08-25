@@ -4,6 +4,7 @@ The algorithm proceeds by finding the smallest (or largest, depending on sorting
 ## Pseudocode
 ```
 procedure selectionSort(A : list of sortable items)
+	n = length(A)
     for i = 0 to n exclusive do
         index_of_min = i
         for j = 1 to n inclusive

@@ -4,6 +4,7 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 ## Pseudocode
 ```
 procedure insertionSort(A : list of sortable items)
+	n = length(A)
     for i = 1 to n inclusive do
         current = A[i]
         j = i-1
