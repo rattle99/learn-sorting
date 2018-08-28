@@ -3,7 +3,7 @@ It is a simple sorting algorithm that repeatedly steps through the list to be so
 
 ## Pseudocode
 ```
-procedure bubbleSort( A : list of sortable items )
+procedure bubbleSort(A : list of sortable items)
     n = length(A)
     repeat
         swapped = false

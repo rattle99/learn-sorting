@@ -5,9 +5,9 @@ The algorithm proceeds by finding the smallest (or largest, depending on sorting
 ```
 procedure selectionSort(A : list of sortable items)
 	n = length(A)
-    for i = 0 to n exclusive do
+    for i = 0 to n-1 exclusive do
         index_of_min = i
-        for j = 1 to n inclusive
+        for j = i+1 to n exclusive
             if A[j] < A[index_of_min] then
             	index_of_min = j
         end for
