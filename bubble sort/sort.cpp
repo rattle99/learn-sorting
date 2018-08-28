@@ -6,7 +6,7 @@
 using namespace std;
 
 // bubble sort function
-vector <int> bubbleSort(vector <int> &a) {
+void bubbleSort(vector <int> &a) {
     for (int i = 0; i < a.size()-1; i++) {
         bool swapped = false;
         for (int j = 0; j < a.size()-i-1; j++) {
@@ -21,7 +21,6 @@ vector <int> bubbleSort(vector <int> &a) {
             break;
         }
     }
-    return a;
 }
 
 // main function

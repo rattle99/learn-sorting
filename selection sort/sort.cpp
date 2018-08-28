@@ -6,7 +6,7 @@
 using namespace std;
 
 // selection sort function
-vector <int> selectionSort(vector <int> &a) {
+void selectionSort(vector <int> &a) {
     for (int i = 0; i < a.size()-1; i++) {
         int mini = i;
         for (int j = i+1; j < a.size(); j++) {
@@ -18,7 +18,6 @@ vector <int> selectionSort(vector <int> &a) {
         a[mini] = a[i];
         a[i] = temp;
     }
-    return a;
 }
 
 // main function

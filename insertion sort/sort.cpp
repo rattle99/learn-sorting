@@ -6,7 +6,7 @@
 using namespace std;
 
 // insertion sort function
-vector <int> insertionSort(vector <int> &a) {
+void insertionSort(vector <int> &a) {
     for (int i = 1; i < a.size(); i++) {
         int curr = a[i];
         int j = i-1;
@@ -16,7 +16,6 @@ vector <int> insertionSort(vector <int> &a) {
         }
         a[j+1] = curr;
     }
-    return a;
 }
 
 // main function
