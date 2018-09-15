@@ -55,7 +55,7 @@ end procedure
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
 ## Details
-+ Time Complexity: O(nLog(n))
-+ Auxiliary Space: O(n)
-+ Sorting In Place: No
-+ Stable: Yes
+
+| Name                  | Best            | Average             | Worst               | Memory    | Stable    | In Place  |
+| --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
+| **Merge sort**        | n&nbsp;log(n)   | n&nbsp;log(n)       | n&nbsp;log(n)       | n         | Yes       |   No      |
